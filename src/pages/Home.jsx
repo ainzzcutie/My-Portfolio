@@ -1,4 +1,3 @@
-import myPic from "../assets/my-pic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -12,7 +11,7 @@ function Home() {
         <div className="flex flex-row w-2/3 h-120 mt-47 bg-white justify-between items-center rounded-md shadow-md">
           <div className="pic-container w-1/2 h-full flex justify-center items-center border-r-2">
             <img
-              src={myPic}
+              src="dist/images/my-pic.JPG"
               alt="my-pic"
               className="h-full w-full object-cover"
             />

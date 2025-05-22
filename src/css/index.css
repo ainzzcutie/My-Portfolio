@@ -8,7 +8,7 @@ html {
 }
 
 .cover {
-    background-image: url("../assets/cover.jpg");
+    background-image: url("/images/cover.jpg");
     background-size: cover;
 }
 
